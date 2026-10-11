@@ -3,7 +3,7 @@ import {
 } from "react";
 
 import { useWorkspace } from "../context/WorkspaceContext";
-
+import Footer from "../components/Footer";
 import AppSidebar from "../components/AppSidebar";
 import AppTopbar from "../components/AppTopbar";
 import ChannelView from "../components/ChannelView";
@@ -92,6 +92,7 @@ export default function Channels() {
             </div>
           )}
         </main>
+        <Footer />
       </div>
     </div>
   );

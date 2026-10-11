@@ -17,7 +17,7 @@ import AppTopbar from "../components/AppTopbar";
 import WorkspaceMembers from "../components/WorkspaceMembers";
 import WorkspaceSelector from "../components/WorkspaceSelector";
 import CreateWorkspaceForm from "../components/CreateWorkspaceForm";
-
+import Footer from "../components/Footer";
 export default function Dashboard() {
   const {
     currentWorkspace,
@@ -675,6 +675,7 @@ export default function Dashboard() {
             </section>
           )}
         </main>
+       <Footer /> 
       </div>
     </div>
   );

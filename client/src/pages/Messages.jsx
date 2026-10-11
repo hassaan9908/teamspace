@@ -3,7 +3,7 @@ import {
 } from "react";
 
 import { useWorkspace } from "../context/WorkspaceContext";
-
+import Footer from "../components/Footer";
 import AppSidebar from "../components/AppSidebar";
 import AppTopbar from "../components/AppTopbar";
 import DirectMessageView from "../components/DirectMessageView";
@@ -92,6 +92,7 @@ export default function Messages() {
             </div>
           )}
         </main>
+        <Footer />
       </div>
     </div>
   );

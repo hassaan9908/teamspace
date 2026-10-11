@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 import { useWorkspace } from "../context/WorkspaceContext";
-
+import Footer from "../components/Footer";
 import AppSidebar from "../components/AppSidebar";
 import AppTopbar from "../components/AppTopbar";
 
@@ -155,6 +155,7 @@ export default function Tasks() {
             </>
           )}
         </main>
+        <Footer />
       </div>
     </div>
   );
